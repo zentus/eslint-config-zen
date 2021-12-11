@@ -8,8 +8,11 @@
   },
   "author": "zentus",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
   "dependencies": {
-    "eslint": "^7.32.0",
+    "@rushstack/eslint-patch": "^1.1.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
@@ -17,5 +20,8 @@
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
