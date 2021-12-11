@@ -9,7 +9,7 @@ npm install @zentus/eslint-config-esm eslint@7
 Create a `.eslintrc.cjs` in the root directory:
 
 ```javascript
-require('@zentus/eslint-config-esm')
+require('@zentus/eslint-config-esm/patch')
 
 module.exports = {
   extends: '@zentus/eslint-config-esm'
