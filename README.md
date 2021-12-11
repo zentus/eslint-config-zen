@@ -1,16 +1,16 @@
-# eslint-config-zentus-esm
+# @zentus/eslint-config-esm
 
 ## Installation
-npm install @zentus/eslint-config-esm @rushstack/eslint-patch
+npm install @zentus/eslint-config-esm eslint@7
 
 ## Setup
 Create a `.eslintrc.cjs` in the root directory:
 
 ```javascript
-require('@rushstack/eslint-patch/modern-module-resolution')
+require('@zentus/eslint-config-esm')
 
 module.exports = {
-  extends: 'zentus-esm'
+  extends: '@zentus/eslint-config-esm'
 }
 ```
 
