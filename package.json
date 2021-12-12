@@ -3,8 +3,13 @@
   "version": "0.0.5",
   "description": "An ESLint config",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "patch.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
   },
   "author": "zentus",
   "license": "MIT",
