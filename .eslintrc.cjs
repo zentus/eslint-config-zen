@@ -52,5 +52,15 @@ module.exports = {
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-imports': rules.sortImports,
     'sort-keys-fix/sort-keys-fix': 'error'
+  },
+  settings: {
+    'import/resolver': {
+      alias: {
+        extensions: ['.js'],
+        map: [
+          ['#src', './src']
+        ]
+      }
+    }
   }
 }
