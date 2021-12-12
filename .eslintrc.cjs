@@ -58,7 +58,7 @@ module.exports = {
       alias: {
         extensions: ['.js'],
         map: [
-          ['#src', './src']
+          ['#src', '../../../src']
         ]
       }
     }
