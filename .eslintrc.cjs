@@ -12,7 +12,7 @@ const rules = {
       'object',
       'type'
     ],
-    'newlines-between': 'always',
+    'newlines-between': 'never',
     pathGroups: [{
       group: 'parent',
       pattern: '#src/**'
