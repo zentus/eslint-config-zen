@@ -1,5 +1,7 @@
 const path = require('path')
-const srcPath = path.resolve('src')
+const srcPath = path.resolve(__dirname, '../../../src')
+const srcPathOther = path.resolve('src')
+console.log({ srcPath, srcPathOther })
 
 const rules = {
   importOrder: ['error', {
