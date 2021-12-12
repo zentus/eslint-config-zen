@@ -1,6 +1,6 @@
 {
   "name": "@zentus/eslint-config-esm",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "An ESLint config",
   "main": "index.js",
   "files": [
