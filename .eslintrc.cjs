@@ -1,3 +1,8 @@
+const path = require('path')
+const srcPath = path.resolve('src')
+const srcPath2 = path.resolve(__dirname, '../../../src')
+console.log({ srcPath, srcPath2 })
+
 const rules = {
   importOrder: ['error', {
     alphabetize: {
@@ -58,7 +63,7 @@ module.exports = {
       alias: {
         extensions: ['.js'],
         map: [
-          ['#src', '../../../src']
+          ['#src', srcPath]
         ]
       }
     }
