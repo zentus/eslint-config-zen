@@ -1,18 +1,18 @@
-# @zentus/eslint-config-esm
+# @zentus/eslint-config-zen
 
 ## Installation
 ```bash
-npm install @zentus/eslint-config-esm eslint@7
+npm install @zentus/eslint-config-zen eslint@7
 ```
 
 ## Setup
 Create a `.eslintrc.cjs` in the root directory:
 
 ```javascript
-require('@zentus/eslint-config-esm/patch')
+require('@zentus/eslint-config-zen/patch')
 
 module.exports = {
-  extends: '@zentus/eslint-config-esm'
+  extends: '@zentus/eslint-config-zen'
 }
 ```
 
