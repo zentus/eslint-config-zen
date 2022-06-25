@@ -1,6 +1,6 @@
 {
   "name": "@zentus/eslint-config-zen",
-  "version": "0.0.15",
+  "version": "0.1.0",
   "description": "An ESLint config",
   "main": "index.js",
   "files": [
