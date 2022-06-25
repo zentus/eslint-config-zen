@@ -6,7 +6,7 @@ npm install @zentus/eslint-config-zen eslint@7
 ```
 
 ## Setup
-Create a `.eslintrc.cjs` in the root directory:
+Create a `.eslintrc.js` (`.eslintrc.cjs` for ESM) in the root directory:
 
 ```javascript
 require('@zentus/eslint-config-zen/patch')
