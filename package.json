@@ -33,7 +33,7 @@
     "eslint": "^7.32.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@techlove:registry": "https://npm.pkg.github.com"
   }
 
 }
