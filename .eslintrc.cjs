@@ -58,7 +58,7 @@ module.exports = {
     'semi': ["error", "always"],
     'quotes': ['error', 'double', { 'avoidEscape': true }],
     'linebreak-style': ['error', 'unix'],
-    'indent': ['error', 4]
+    'indent': ['error', 2]
   },
   settings: {
     'import/resolver': {
