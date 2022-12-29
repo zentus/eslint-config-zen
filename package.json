@@ -2,6 +2,7 @@
   "name": "@techlove/eslint-config",
   "version": "1.0.0",
   "description": "An ESLint config",
+  "repository": "https://github.com/Techlove-AB/eslint-config.git",
   "main": "index.js",
   "files": [
     "index.js",
@@ -30,5 +31,9 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
+
 }
