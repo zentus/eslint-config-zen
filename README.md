@@ -1,18 +1,18 @@
-# @zentus/eslint-config-zen
+# @Techlove-AB/eslint-config
 
 ## Installation
 ```bash
-npm install @zentus/eslint-config-zen eslint@7
+npm install @Techlove-AB/eslint-config eslint@7
 ```
 
 ## Setup
 Create a `.eslintrc.js` (`.eslintrc.cjs` for ESM) in the root directory:
 
 ```javascript
-require('@zentus/eslint-config-zen/patch')
+require('@Techlove-AB/eslint-config/patch')
 
 module.exports = {
-  extends: '@zentus/eslint-config-zen'
+  extends: '@Techlove-AB/eslint-config'
 }
 ```
 
