@@ -54,7 +54,11 @@ module.exports = {
     'prefer-destructuring': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-imports': rules.sortImports,
-    'sort-keys-fix/sort-keys-fix': 'error'
+    'sort-keys-fix/sort-keys-fix': 'error',
+    'semi': ["error", "always"],
+    'quotes': ['error', 'double', { 'avoidEscape': true }],
+    'linebreak-style': ['error', 'unix'],
+    'indent': ['error', 4]
   },
   settings: {
     'import/resolver': {
