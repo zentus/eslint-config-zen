@@ -56,7 +56,7 @@ module.exports = {
     'sort-imports': rules.sortImports,
     'sort-keys-fix/sort-keys-fix': 'error',
     'semi': ["error", "always"],
-    'quotes': ['error', 'double', { 'avoidEscape': true }],
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
     'linebreak-style': ['error', 'unix'],
     'indent': ['error', 2]
   },
