@@ -1,8 +1,8 @@
 {
-  "name": "@Techlove-AB/eslint-config",
-  "version": "1.0.3",
+  "name": "@techlove-ab/eslint-config",
+  "version": "1.0.4",
   "description": "An ESLint config",
-  "repository": "https://github.com/Techlove-AB/eslint-config.git",
+  "repository": "https://github.com/techlove-ab/eslint-config.git",
   "main": "index.js",
   "files": [
     "index.js",
@@ -33,7 +33,7 @@
     "eslint": "^7.32.0"
   },
   "publishConfig": {
-    "@Techlove-AB:registry": "https://npm.pkg.github.com"
+    "@techlove-ab:registry": "https://npm.pkg.github.com"
   }
 
 }
