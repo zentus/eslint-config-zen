@@ -30,7 +30,7 @@
     "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.28.0"
   },
   "publishConfig": {
     "@techlove-ab:registry": "https://npm.pkg.github.com"
