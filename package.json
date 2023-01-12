@@ -1,5 +1,5 @@
 {
-  "name": "@techlove-ab/eslint-config",
+  "name": "@techlove/eslint-config",
   "version": "1.0.9",
   "description": "An ESLint config",
   "repository": "https://github.com/techlove/eslint-config.git",
