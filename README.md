@@ -1,18 +1,18 @@
-# @techlove-ab/eslint-config
+# @techlove/eslint-config
 
 ## Installation
 ```bash
-npm install @techlove-ab/eslint-config eslint@7
+npm install @techlove/eslint-config
 ```
 
 ## Setup
 Create a `.eslintrc.js` (`.eslintrc.cjs` for ESM) in the root directory:
 
 ```javascript
-require('@techlove-ab/eslint-config/patch')
+require('@techlove/eslint-config/patch')
 
 module.exports = {
-  extends: '@techlove-ab/eslint-config'
+  extends: '@techlove/eslint-config'
 }
 ```
 
