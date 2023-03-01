@@ -51,10 +51,12 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-unresolved': 'error',
     'import/order': rules.importOrder,
+    'no-useless-escape': 0,
     'prefer-destructuring': 'error',
     'sort-destructure-keys/sort-destructure-keys': 'error',
     'sort-imports': rules.sortImports,
-    'sort-keys-fix/sort-keys-fix': 'error'
+    'sort-keys-fix/sort-keys-fix': 'error',
+    'space-before-function-paren': 0
   },
   settings: {
     'import/resolver': {
