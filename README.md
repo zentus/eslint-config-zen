@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-npm install @zentus/eslint-config-zen eslint@7
+npm install @zentus/eslint-config-zen eslint@8
 ```
 
 ## Setup
